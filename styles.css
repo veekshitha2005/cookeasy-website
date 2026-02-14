@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#faf7f2;
+    color:#333;
+}
+
+/* UNIVERSITY HEADER */
+
+.university-header{
+    background:#7a1c1c;
+    text-align:center;
+    padding:15px;
+    color:white;
+}
+
+.vit-logo{
+    height:70px;
+    display:block;
+    margin:0 auto 10px auto;
+}
+
+.uni-title h2{
+    font-weight:600;
+}
+
+.uni-title small{
+    font-size:13px;
+}
+
+/* NAVIGATION */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 8%;
+    background:white;
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+    font-weight:600;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#333;
+}
+
+/* HERO */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+}
+
+.hero img{
+    width:450px;
+    border-radius:20px;
+}
+
+/* RECIPES */
+
+.recipes{
+    padding:70px 8%;
+    text-align:center;
+}
+
+.recipe-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:15px 15px 0 0;
+}
+
+.card h3{
+    padding:15px;
+}
+
+/* ALL RECIPES */
+
+.all-recipes{
+    padding:70px 8%;
+    background:#f4f1ec;
+    text-align:center;
+}
+
+.user-card{
+    background:white;
+    margin:20px auto;
+    width:60%;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    text-align:left;
+}
+
+/* FORM */
+
+.contact{
+    padding:70px 15%;
+    text-align:center;
+}
+
+input,textarea{
+    width:80%;
+    padding:12px;
+    margin:12px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#7a1c1c;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#7a1c1c;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* MODAL */
+
+.modal{
+    display:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+}
+
+.modal-content{
+    background:white;
+    width:60%;
+    margin:8% auto;
+    padding:30px;
+    border-radius:15px;
+}
